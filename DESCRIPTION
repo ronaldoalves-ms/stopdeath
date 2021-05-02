@@ -1,0 +1,18 @@
+Package: stopdeath
+Type: Package
+Title: Codificação de Causa de Óbitos Evitáveis na Infância
+Version: 0.1.0
+Author: Ronaldo Fernandes Santos Alves <ronaldo.alves@icict.fiocruz.br>
+Maintainer: Ronaldo Fernandes Santos Alves <ronaldo.alves@icict.fiocruz.br>
+Description: Pacote em desenvolvimento.
+URL: <https://github.com/ronaldoalves-ms/stopdeath>
+License: MIT License
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    magrittr,
+    dplyr,
+    stringr
+RoxygenNote: 7.1.1
+Depends: 
+    R (>= 2.10)
