@@ -29,7 +29,29 @@ library(stopdeath)
 dados <- stop_death(dados, dados$var_nome)
 ```
 
-## Dúvidas e sugestões
+A função **stop\_death** retorna um data frame enriquecido com a
+variável “code\_class”, cuja estrutura compreende variados níveis
+hierárquicos de classificação de causas de óbitos evitáveis na infância.
+A variável “code\_class” é um vetor de 11 caracteres, separados por “\_”
+e organizados em quatro blocos (“NN\_NN\_N\_NNN”). A [Tabela de
+correspondência](https://github.com/ronaldoalves-ms/stopdeath/blob/main/data-raw/dic_code_class.xlsx)
+oferece todos os detalhes dos códigos de classificação.
+
+### Referências
+
+Malta DC, Duarte EC, Almeida MF, et al. Lista de causas de mortes
+evitáveis por intervenções do Sistema Único de Saúde do Brasil.
+Epidemiologia e Serviços de Saúde, 16(4):233-244, out-dez 2007.
+Disponível em:
+[Link](http://scielo.iec.gov.br/pdf/ess/v16n4/v16n4a02.pdf)
+
+Malta DC, Sardinha LMV, Moura L, et al. Atualização da lista de causas
+de mortes evitáveis por intervenções do Sistema Único de Saúde do
+Brasil. Epidemiologia e Serviços de Saúde, 19(2):173-176, abr-jun 2010.
+Disponível em:
+[Link](http://scielo.iec.gov.br/pdf/ess/v19n2/v19n2a10.pdf)
+
+### Dúvidas e sugestões
 
 Crie uma [issue](https://github.com/ronaldoalves-ms/stopdeath/issues) no
 projeto ou envie um e-mail para <ronaldo.alves@icict.fiocruz.br>
