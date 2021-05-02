@@ -1,6 +1,6 @@
 #' Classificação de Anomalias Congênitas Prioritárias
 #'
-#' \code{class_birthdefect} é uma função de identificação e classificação de códigos da CID-10 para fins de vigilância de anomalias congênitas no Brasil.
+#' \code{stop_birthdefect} é uma função de identificação e classificação de códigos da CID-10 para fins de vigilância de anomalias congênitas no Brasil.
 #'
 #' @param dados Um data frame contendo os dados de interesse.
 #'
