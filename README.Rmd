@@ -2,21 +2,7 @@
 output: github_document
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
-```{r, include = FALSE}
-knitr::opts_chunk$set(
-  collapse = TRUE,
-  comment = "#>",
-  fig.path = "man/figures/README-",
-  out.width = "100%"
-)
-```
-
 # stopdeath
-
-<!-- badges: start -->
-<!-- badges: end -->
 
 O pacote R **stopdeath** inclui a função de codificação **stop_death** que serve para classificar as causas de óbitos evitáveis em menores de 5 anos de idade, conforme os estudos de [Malta et al.(2007)](http://scielo.iec.gov.br/pdf/ess/v16n4/v16n4a02.pdf) e [Malta et al.(2010)](http://scielo.iec.gov.br/pdf/ess/v19n2/v19n2a10.pdf).
 
@@ -31,7 +17,7 @@ devtools::install_github("ronaldoalves-ms/stopdeath")
 
 ## Como usar?
 
-A função de codificação **stop_death** tem dois argummentos principais. O argumento *dados* especifica o data frame de interesse e o argumento *var_nome* especifica a variável com os códigos da CID-10 a serem classificados. Veja um exemplo de aplicação a seguir.
+A função de codificação **stop_death** tem dois argumentos principais. O argumento *dados* especifica o data frame de interesse. O argumento *var_nome* especifica a variável com os códigos da CID-10 a serem classificados. Veja um exemplo de aplicação a seguir.
 
 ```r
 library(stopdeath)

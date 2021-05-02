@@ -1,10 +1,5 @@
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
-
 # stopdeath
-
-<!-- badges: start -->
-<!-- badges: end -->
 
 O pacote R **stopdeath** inclui a função de codificação **stop\_death**
 que serve para classificar as causas de óbitos evitáveis em menores de 5
@@ -24,8 +19,8 @@ devtools::install_github("ronaldoalves-ms/stopdeath")
 
 ## Como usar?
 
-A função de codificação **stop\_death** tem dois argummentos principais.
-O argumento *dados* especifica o data frame de interesse e o argumento
+A função de codificação **stop\_death** tem dois argumentos principais.
+O argumento *dados* especifica o data frame de interesse. O argumento
 *var\_nome* especifica a variável com os códigos da CID-10 a serem
 classificados. Veja um exemplo de aplicação a seguir.
 
