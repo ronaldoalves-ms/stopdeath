@@ -30,7 +30,7 @@ O argumento *dados* especifica o data frame de interesse e o argumento
 classificados. Veja um exemplo de aplicação a seguir.
 
 ``` r
-library(stop_death)
+library(stopdeath)
 dados <- stop_death(dados, dados$var_nome)
 ```
 

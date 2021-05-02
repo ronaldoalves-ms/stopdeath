@@ -14,7 +14,7 @@
 #' @author Ronaldo Fernandes Santos Alves. Fundação Oswaldo Cruz, Instituto de Comunicação e Informação Científica e Tecnológica em Saúde.
 #'
 #' @examples
-#' library(stop_death)
+#' library(stopdeath)
 #' dados <- stop_death(dados, dados$var_nome)
 #'
 #' @export
@@ -33,8 +33,11 @@ stop_death <- function(dados, var_nome){
 
   dados <- dados %>%
 
-    dplyr::mutate(code_class = stringr::str_remove_all(var_nome, "[^[:alnum:]]"),
-                  code_class = stringr::str_to_upper(var_nome)) %>%
+    dplyr::mutate(code_class = stringr::str_remove_all(var_nome, "[^[:alnum:]]")) %>%
+    dplyr::mutate(code_class = stringr::str_to_upper(var_nome))
+
+
+  dados <- dados %>%
 
     dplyr::mutate(
       code_class = dplyr::case_when(

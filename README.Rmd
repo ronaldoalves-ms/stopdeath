@@ -34,7 +34,7 @@ devtools::install_github("ronaldoalves-ms/stopdeath")
 A função de codificação **stop_death** tem dois argummentos principais. O argumento *dados* especifica o data frame de interesse e o argumento *var_nome* especifica a variável com os códigos da CID-10 a serem classificados. Veja um exemplo de aplicação a seguir.
 
 ```r
-library(stop_death)
+library(stopdeath)
 dados <- stop_death(dados, dados$var_nome)
 ```
 
