@@ -6,7 +6,7 @@ Author: Ronaldo Fernandes Santos Alves <ronaldo.alves@icict.fiocruz.br>
 Maintainer: Ronaldo Fernandes Santos Alves <ronaldo.alves@icict.fiocruz.br>
 Description: Pacote em desenvolvimento.
 URL: <https://github.com/ronaldoalves-ms/stopdeath>
-License: MIT License
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Imports: 
